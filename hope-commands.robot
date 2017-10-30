@@ -1,5 +1,5 @@
 *** Settings ***
-Library    /Users/sachinchavan/Documents/SonicS/projects/Hope/python_hope/Hope/HopeLib.py
+#Library    /Users/sachinchavan/Documents/SonicS/projects/Hope/python_hope/Hope/HopeLib.py
 #Library    /Users/sachinchavan/Documents/docs/programs/robot/SSI.py    Left    /dev/tty.usbserial-AL02A1YP
 
 *** Variables ***
