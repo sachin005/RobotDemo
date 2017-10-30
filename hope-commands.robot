@@ -35,7 +35,7 @@ ${WriteGainIncrement}      26
 ${GainIncrementPayload}    01
 ${ReadPlayStatus}          29
 ${WritePlayStatus}         2A
-{PlayStatusPayload}        01
+${PlayStatusPayload}        01
 ${ReadEffects}             2D
 ${WriteEffects}            2E
 ${EffectsPayload}          01     #00, 02, 04, 07
@@ -78,6 +78,9 @@ ${Read}
 
 
 *** Test Cases ***
+Initial Log
+	Log To Console    Hello, World!
+
 *** Comments ***
 Name
 	HopeLib.connect    ${Sony}    ${port}    #192.168.168.103    ${12345}
